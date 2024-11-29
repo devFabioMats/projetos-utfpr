@@ -1,0 +1,7 @@
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio6\Exercicio6\bin\Debug\Exercicio6.exe.config
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio6\Exercicio6\bin\Debug\Exercicio6.exe
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio6\Exercicio6\bin\Debug\Exercicio6.pdb
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio6\Exercicio6\obj\Debug\Exercicio6.csproj.AssemblyReference.cache
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio6\Exercicio6\obj\Debug\Exercicio6.csproj.CoreCompileInputs.cache
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio6\Exercicio6\obj\Debug\Exercicio6.exe
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio6\Exercicio6\obj\Debug\Exercicio6.pdb

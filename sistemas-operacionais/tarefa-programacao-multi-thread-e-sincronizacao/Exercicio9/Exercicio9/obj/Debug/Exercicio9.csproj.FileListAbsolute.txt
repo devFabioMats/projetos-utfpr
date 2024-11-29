@@ -1,0 +1,7 @@
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio9\Exercicio9\bin\Debug\Exercicio9.exe.config
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio9\Exercicio9\bin\Debug\Exercicio9.exe
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio9\Exercicio9\bin\Debug\Exercicio9.pdb
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio9\Exercicio9\obj\Debug\Exercicio9.csproj.AssemblyReference.cache
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio9\Exercicio9\obj\Debug\Exercicio9.csproj.CoreCompileInputs.cache
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio9\Exercicio9\obj\Debug\Exercicio9.exe
+C:\Users\Fabio Mats\Desktop\Atividade so\Exercicio9\Exercicio9\obj\Debug\Exercicio9.pdb
