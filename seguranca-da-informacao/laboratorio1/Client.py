@@ -6,6 +6,14 @@ import time
 import threading
 import select
 import traceback
+from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+
+# AESGCM.generate_key(bit_length=128)
+# nonce = os.urandom(12)
+key = b'A\xe0 9.\xd6\x1cNY\xba\xf7\x08d\xa9To'
+nonce = b'\x95\xa4\xad#\xceg\xbd\x02w\x8cf\x05'
+aesgcm = AESGCM(key)
+aad = b"autenticado"
 
 class Server(threading.Thread):
     def initialise(self, receive):
@@ -21,6 +29,7 @@ class Server(threading.Thread):
                     s = item.recv(1024)
                     if s != '':
                         chunk = s
+                        chunk = aesgcm.decrypt(nonce, chunk, aad)
                         print(chunk.decode() + '\n>>')
                 except:
                     traceback.print_exc(file=sys.stdout)
@@ -65,6 +74,7 @@ class Client(threading.Thread):
                 continue
             msg = user_name + ': ' + msg
             data = msg.encode()
+            data = aesgcm.encrypt(nonce, data, aad)
             self.client(host, port, data)
         return (1)
 
