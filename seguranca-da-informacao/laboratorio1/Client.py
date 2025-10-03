@@ -35,7 +35,6 @@ class Server(threading.Thread):
                     traceback.print_exc(file=sys.stdout)
                     break
 
-
 class Client(threading.Thread):
     def connect(self, host, port):
         self.sock.connect((host, port))
