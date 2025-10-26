@@ -113,7 +113,7 @@ class MatrizServer:
             f.write(f"Tempo sequencial: {tempo_seq:.2f} ms\n")
             f.write(f"Tempo paralelo: {tempo_par:.2f} ms\n")
             f.write(f"Tempo distribuido: {tempo_dist:.2f} ms\n")
-            f.write(f"Workers utilizados: {num_workers}\n")
+            f.write(f"Clientes trabalhadores utilizados: {num_workers}\n")
             
         for client in self.clients:
             client.close()
