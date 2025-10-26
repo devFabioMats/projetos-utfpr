@@ -1,0 +1,5 @@
+Tamanho da matriz: 8x8
+Tempo sequencial: 0.08 ms
+Tempo paralelo: 2.27 ms
+Tempo distribuido: 37630.37 ms
+Workers utilizados: 2
