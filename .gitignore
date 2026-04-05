@@ -1,0 +1,69 @@
+# =========================
+# Build artifacts / binaries
+# =========================
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+*.o
+*.a
+
+# =========================
+# .NET
+# =========================
+*.user
+*.suo
+*.cache
+*.nupkg
+*.snupkg
+*.csproj.user
+
+# =========================
+# Python
+# =========================
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+**/target/
+**/out/
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
